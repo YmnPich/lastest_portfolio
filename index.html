@@ -13,16 +13,16 @@ Author URI: https://themeforest.net/user/ashishmaraviya
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
-    <title>Masterly - Personal Portfolio One Page HTML Template</title>
+    <title>Yun Monypich Portfolio</title>
     <meta name="keywords"
         content="personal portfolio, cv, resume, agency, bootstrap, clean, cv, designer, developer, freelancer, modern, one page portfolio, onepage, personal portfolio, responsive, resume, vcard">
     <meta name="description" content="Unique Personal Portfolio HTML Template">
     <meta name="author" content="ashishmaraviya">
     <meta name="generator" content="Mobirise v3.12.1, mobirise.com">
     <!-- site Favicon -->
-    <link rel="icon" href="assets/img/favicon/favicon.png" sizes="32x32">
+    <!-- <link rel="icon" href="assets/img/favicon/favicon.png" sizes="32x32">
     <link rel="apple-touch-icon" href="assets/img/favicon/favicon.png">
-    <meta name="msapplication-TileImage" content="assets/img/favicon/favicon.png">
+    <meta name="msapplication-TileImage" content="assets/img/favicon/favicon.png"> -->
 
     <!-- css Font -->
 
@@ -110,7 +110,10 @@ Author URI: https://themeforest.net/user/ashishmaraviya
                                     class="name">&nbsp; Monypich</span></span>
                         </h2>
                         <p class="ms-hero-detail">I’m Yun Monypich, a multidisciplinary designer focused on branding, product design, and UX/UI, creating intuitive, user-centered digital experiences.</p>
-                        <a href="" class="ms-learn-more-right">
+                        <a href="assets/cv/YmnPich_CV.pdf" 
+   class="ms-learn-more-right" 
+   target="_blank" 
+   rel="noopener">
                             <span class="text">Download CV</span>
                         </a>
                     </div>
@@ -256,7 +259,7 @@ Author URI: https://themeforest.net/user/ashishmaraviya
                                     <span>January 2017 - 2022</span>
                                 </div>
                                 <div class="timeline-content">
-                                    <h5 class="timeline-title">Higher Secondary<span class="sub">- Preah Sisowat Highschool</span></h5>
+                                    <h5 class="timeline-title">High School<span class="sub">- Preah Sisowat Highschool</span></h5>
                                     <p> During my time at Preah Sisowat Hight School, I developed a strong foundation in mathematics, science.
                                         </p>
                                 </div>
@@ -368,7 +371,7 @@ Author URI: https://themeforest.net/user/ashishmaraviya
                                 <div class="content-wrap">
                                     <div class="icon">
                                         <img class="icofont icofont-headphone-alt font-40px dark-color svg_img"
-                                            src="assets/img/service/3.svg" alt="development">
+                                            src="assets/img/favicon/branding_design_icon.png" alt="development">
                                     </div>
                                     <h3>Branding Design</h3>
                                     <p>Building consistent brand identities that reflect your values and strengthen recognition.</p>
@@ -391,7 +394,7 @@ Author URI: https://themeforest.net/user/ashishmaraviya
                                 <div class="content-wrap">
                                     <div class="icon">
                                         <img class="icofont icofont-headphone-alt font-40px dark-color svg_img"
-                                            src="assets/img/service/4.svg" alt="seo friendly">
+                                            src="assets/img/favicon/Product Development.png" alt="seo friendly">
                                     </div>
                                     <h3>Product Development</h3>
                                     <p>Transforming ideas into functional digital products through research, design and iteration.</p>
@@ -604,8 +607,8 @@ Author URI: https://themeforest.net/user/ashishmaraviya
                                                 <div class="ms-info">
                                                     <div class="portfolio-img">
                                                         <a class="" data-fancybox="gallery"
-                                                            href="assets/img/portfolio/fitzone.png"
-                                                            style="background-image: url(assets/img/portfolio/fitzone.png)">
+                                                            href="assets/img/portfolio/artwork_re.jpg"
+                                                            style="background-image: url(assets/img/portfolio/artwork_re.jpg)">
                                                             <span class="overlay">+</span>
                                                         </a>
                                                     </div>
@@ -852,24 +855,28 @@ Author URI: https://themeforest.net/user/ashishmaraviya
                     </div>
                     <!-- /Boxes de Acoes -->
                 </div>
-                <div class="col-lg-7 col-md-12">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="fname" placeholder="Full Name">
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="umail" placeholder="Email">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="phone" placeholder="Phone">
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
-                                placeholder="Message"></textarea>
-                        </div>
-                        <button type="submit" class="ms-learn-more-right"><span class="text">Submit</span></button>
-                    </form>
-                </div>
+                <form action="https://formspree.io/f/xqarozpd" method="POST">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name" placeholder="Full Name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" placeholder="Email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="phone" placeholder="Phone">
+                    </div>
+
+                    <div class="form-group">
+                        <textarea class="form-control" name="message" rows="4" placeholder="Message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="ms-learn-more-right">
+                        <span class="text">Submit</span>
+                    </button>
+                </form>
+
             </div>
         </div>
     </section>
